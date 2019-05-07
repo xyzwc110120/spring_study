@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employeeDAO" class="com.cyx.spring._17_static_proxy.dao.impl.EmployeeDAOImpl" />
+
+    <bean id="transactionManager" class="com.cyx.spring._17_static_proxy.tx.TransactionManager" />
+
+    <!-- 代理对象 -->
+    <bean id="employeeServiceProxy" class="com.cyx.spring._17_static_proxy.proxy.EmployeeServiceProxy">
+        <property name="transactionManager" ref="transactionManager" />
+        <property name="employeeService">
+            <!-- 将被代理对象作为内部 bean 注入，这样业务类就不能被外界直接使用，并且保证业务类都做了事务增强 -->
+            <bean class="com.cyx.spring._17_static_proxy.service.impl.EmployeeServiceImpl">
+                <property name="employeeDAO" ref="employeeDAO" />
+            </bean>
+        </property>
+    </bean>
+
+</beans>

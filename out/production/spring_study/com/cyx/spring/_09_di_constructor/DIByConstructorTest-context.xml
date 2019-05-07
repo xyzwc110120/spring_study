@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 构造器注入与属性注入的配置方式差不多，只不过一个用 constructor-arg 元素，一个用 property 元素 -->
+
+    <!-- 构造器注入：常量类型 -->
+    <bean id="hBeanValue" class="com.cyx.spring._09_di_constructor.HBeanValue">
+        <!--
+            type 属性：按照参数类型来匹配；
+            index 属性：按照参数位置来匹配，下标从 0 开始。
+        -->
+        <constructor-arg name="name" value="哦呀呀" />
+        <constructor-arg name="age" value="20" />
+    </bean>
+
+
+    <!-- 构造器注入：对象类型 -->
+    <!-- <bean id="hBeanDependency" class="com.cyx.spring._09_di_constructor.HBeanDependency" /> -->
+    <bean id="hBeanRef" class="com.cyx.spring._09_di_constructor.HBeanRef">
+        <constructor-arg name="hBeanDependency">
+            <!--
+                内部 bean：
+                    这样该对象就只会被注入到依赖它的 bean 中，而不会在 Spring 容器中创建，
+                也就不能使用 @Autowired 注解从 Spring 容器中获取到该 bean 对象。
+            -->
+            <bean class="com.cyx.spring._09_di_constructor.HBeanDependency" />
+        </constructor-arg>
+    </bean>
+
+
+    <!-- 构造器注入：集合类型 -->
+    <bean id="hBeanCollection" class="com.cyx.spring._09_di_constructor.HBeanCollection">
+        <constructor-arg name="set">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+            </set>
+        </constructor-arg>
+        <constructor-arg name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+            </list>
+        </constructor-arg>
+        <constructor-arg name="arrays">
+            <array>
+                <value>array1</value>
+                <value>array2</value>
+            </array>
+        </constructor-arg>
+        <constructor-arg name="map">
+            <map>
+                <entry key="key1" value="value1" />
+                <entry key="key2" value-ref="hBeanRef" />
+            </map>
+        </constructor-arg>
+        <constructor-arg name="properties">
+            <value>
+                property1=property1
+                property2=property2
+            </value>
+        </constructor-arg>
+    </bean>
+
+</beans>

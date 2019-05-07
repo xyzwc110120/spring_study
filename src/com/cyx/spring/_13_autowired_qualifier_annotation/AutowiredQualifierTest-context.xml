@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                https://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context
+                https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- DI 注解解析器 -->
+    <!--
+        在 Spring test 框架中，使用依赖注入的注解（如：@Autowired、@Qualifier 等）不需要配置该元素，
+    但是在 Web 项目中必须配置。
+    -->
+    <context:annotation-config />
+
+    <bean id="beanDependency" class="com.cyx.spring._13_autowired_qualifier_annotation.JBeanDependency" />
+    <bean id="jBean" class="com.cyx.spring._13_autowired_qualifier_annotation.JBean" />
+
+</beans>

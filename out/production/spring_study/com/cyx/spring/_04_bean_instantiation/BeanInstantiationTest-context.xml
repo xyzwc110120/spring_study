@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 1、构造器实例化（必须要有无参数构造器），最标准，使用最多 -->
+    <bean id="cBean1" class="com.cyx.spring._04_bean_instantiation.CBean1" />
+
+    <!-- 2、静态工厂方法实例化（解决系统遗留问题） -->
+    <bean id="cBean2" class="com.cyx.spring._04_bean_instantiation.CBean2Factory" factory-method="createInstance" />
+
+    <!-- 3、实例工厂方法实例化（解决系统遗留问题） -->
+    <bean id="cBean3Factory" class="com.cyx.spring._04_bean_instantiation.CBean3Factory" />
+    <bean id="cBean3" factory-bean="cBean3Factory" factory-method="createInstance" />
+
+    <!-- 4、实现 FactoryBean 接口实例化 -->
+    <bean id="cBean4" class="com.cyx.spring._04_bean_instantiation.CBean4Factory" />
+
+</beans>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- p 命名空间，进行简化 bean 的创建、属性的注入书写方式：xmlns:p="http://www.springframework.org/schema/p" -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 属性注入：常量类型 -->
+    <!--
+        使用 p 命名空间（不太推荐使用）：
+        <bean id="gBeanValue" class="com.cyx.spring._08_di_setter.GBeanValue"
+              p:name="哇哈哈" p:age="18" />
+    -->
+    <bean id="gBeanValue" class="com.cyx.spring._08_di_setter.GBeanValue">
+        <property name="name" value="啦啦啦" />
+        <property name="age" value="18" />
+    </bean>
+
+
+    <!-- 属性注入：对象类型 -->
+    <bean id="gBeanDependency" class="com.cyx.spring._08_di_setter.GBeanDependency" />
+    <bean id="gBeanRef" class="com.cyx.spring._08_di_setter.GBeanRef">
+        <property name="dependency" ref="gBeanDependency" />
+    </bean>
+
+
+    <!-- 属性注入：集合类型 -->
+    <bean id="gBeanCollection" class="com.cyx.spring._08_di_setter.GBeanCollection">
+        <!-- Set 集合 -->
+        <property name="set">
+            <set>
+                <value>set1</value>
+                <value>set2</value>
+            </set>
+        </property>
+
+        <!-- List 集合 -->
+        <property name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+            </list>
+        </property>
+        <!-- 数组 -->
+        <property name="arrays">
+            <!--
+                注入 List 类型和数组类型所使用的 list 元素和 array 元素可以交换使用。
+                    <list>
+                        <value>array1</value>
+                        <value>array2</value>
+                    </list>
+            -->
+            <array>
+                <value>array1</value>
+                <value>array2</value>
+            </array>
+        </property>
+
+        <!-- Map 集合 -->
+        <property name="map">
+            <map>
+                <!--
+                    可以看到 entry 元素中有 key、value 属性和 key-ref、value-ref 属性，
+                    这是因为 Map 集合的 key 和 value 既可以是简单类型，也可以是引用类型。
+                -->
+                <entry key="map1" value="map1" />
+                <entry key="gBeanDependency" value-ref="gBeanDependency" />
+            </map>
+        </property>
+        <!-- Properties 集合 -->
+        <property name="properties">
+            <!--
+                因为 Properties 集合是一种特殊的 Map 集合（Map<String, String>），所以可以使用 map 元素来注入：
+                    <map>
+                        <entry key="property1" value="property1" />
+                        <entry key="property2" value="property2" />
+                    </map>
+            -->
+            <!--
+                <props>
+                    <prop key="property1">property1</prop>
+                    <prop key="property2">property2</prop>
+                </props>
+            -->
+            <!-- 推荐使用一种更简便的写法 -->
+            <value>
+                property1=property1
+                property2=property2
+            </value>
+        </property>
+    </bean>
+
+</beans>

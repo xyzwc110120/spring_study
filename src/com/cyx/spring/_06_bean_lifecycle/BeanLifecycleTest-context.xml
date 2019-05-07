@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        init-method 属性：定义初始化方法，在构造器执行之后立马执行。
+        destroy-method 属性：容器被正常销毁的时候，定义在销毁之前的方法，在销毁执行之前调用。
+    -->
+    <bean id="eBean" class="com.cyx.spring._06_bean_lifecycle.EBean" init-method="init" destroy-method="close" />
+
+</beans>

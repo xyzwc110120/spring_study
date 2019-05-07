@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                https://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context
+                https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- DI 注解解析器 -->
+    <context:annotation-config />
+
+    <!-- IoC 注解解析器 -->
+    <!-- base-package 属性：代表从哪个包及其子包下扫描，多个包使用逗号（,）或分号（;）或空格来隔开 -->
+    <context:component-scan base-package="com.cyx.spring._15_stereotype_annotation" />
+
+</beans>

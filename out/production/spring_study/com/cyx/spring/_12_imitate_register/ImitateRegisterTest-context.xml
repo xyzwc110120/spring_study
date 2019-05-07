@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                https://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context
+                https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 配置数据库连接池 -->
+    <context:property-placeholder location="classpath:db.properties" />
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driverClassName}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="initialSize" value="${jdbc.initialSize}" />
+    </bean>
+
+
+    <!-- 创建 DAO -->
+    <bean id="userDAO" class="com.cyx.spring._12_imitate_register.dao.impl.UserDAOImpl">
+        <!-- 通过属性注入，注入依赖 -->
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- 创建 Service -->
+    <bean id="userService" class="com.cyx.spring._12_imitate_register.service.impl.UserServiceImpl">
+        <property name="userDAO" ref="userDAO" />
+    </bean>
+
+    <!-- 创建 Controller -->
+    <bean id="userController" class="com.cyx.spring._12_imitate_register.Controller.UserController">
+        <property name="userService" ref="userService" />
+    </bean>
+
+</beans>

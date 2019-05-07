@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 通过配置，告诉 Spring 的 IoC 容器管理哪一个类的对象 -->
+<bean id="helloWorld" class="com.cyx.spring._01_hello_world.HelloWorld">
+    <!-- 注入对象所依赖的属性 -->
+    <property name="name" value="哇哈哈" />
+</bean>
+
+<!-- 引入其它配置文件 -->
+<import resource="classpath:com/cyx/spring/_02_spring_test/springTest.xml" />
+<import resource="classpath:com/cyx/spring/_03_container/containerText.xml" />
+
+</beans>

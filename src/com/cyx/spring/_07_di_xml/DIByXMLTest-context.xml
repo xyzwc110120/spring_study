@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="dependency" class="com.cyx.spring._07_di_xml.FBeanDependency" />
+    <!--
+        autowire 属性：让 Spring 按照一定的规则方式自己去找适合的对象，并完成 DI 操作:
+            default：不要自动注入，缺省 default 表示 no。
+            no：不要自动注入。
+            byName：按照名称注入（按照属性的名称在 Spring 中找 bean）。
+            byType：按照依赖对象的类型注入。
+            constructor：按照对象的构造器上面的参数类型注入。
+
+        注意：byName 与 byType 都是属性注入（调用 setter 方法），constructor 是构造器注入。
+    -->
+    <bean id="fBean" class="com.cyx.spring._07_di_xml.FBean" autowire="constructor" />
+
+</beans>

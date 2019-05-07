@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                https://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/context
+                https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- DI 注解解析器 -->
+    <context:annotation-config />
+
+    <!-- 多个配置文件使用逗号（,）或分号（;）或空格来隔开 -->
+    <context:property-placeholder location="classpath:db.properties, classpath:test.properties" />
+    <!--
+        可以分开引入配置文件，但是需要使用 ignore-unresolvable="true" 属性，不然只会引入第一个配置文件：
+            <context:property-placeholder location="classpath:db.properties" ignore-unresolvable="true" />
+            <context:property-placeholder location="classpath:test.properties" ignore-unresolvable="true" />
+    -->
+
+    <bean id="propertiesBean" class="com.cyx.spring._14_value_annotation.PropertiesBean" />
+
+</beans>

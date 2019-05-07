@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 抽取多个 bean 的共同配置 -->
+    <!-- abstract 属性：定义一个抽象 bean，容器将不会创建该 bean 对象，该抽象 bean 作为模板使用 -->
+    <bean id="iBeanCommon" abstract="true">
+        <property name="name" value="呜啦啦" />
+        <property name="age" value="18" />
+    </bean>
+
+
+    <!-- parent 属性：要继承的父 bean 元素，可覆盖 -->
+    <bean id="iBean_1" class="com.cyx.spring._10_bean_inheritance.IBean_1" parent="iBeanCommon">
+        <property name="dog" value="哈士奇" />
+    </bean>
+
+    <bean id="iBean_2" class="com.cyx.spring._10_bean_inheritance.IBean_2" parent="iBeanCommon">
+        <property name="name" value="噜啦啦" />
+        <property name="cat" value="暹罗" />
+    </bean>
+
+</beans>

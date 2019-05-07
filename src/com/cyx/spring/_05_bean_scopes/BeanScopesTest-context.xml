@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean 的作用域默认为单例：scope="singleton" -->
+    <bean id="dBean1" class="com.cyx.spring._05_bean_scopes.DBean1" />
+
+    <!-- 多例：scope="prototype" -->
+    <bean id="dBean2" class="com.cyx.spring._05_bean_scopes.DBean2" scope="prototype" />
+
+</beans>
