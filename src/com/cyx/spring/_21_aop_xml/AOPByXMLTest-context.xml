@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                https://www.springframework.org/schema/beans/spring-beans.xsd
+                http://www.springframework.org/schema/aop
+                http://www.springframework.org/schema/aop/spring-aop.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.cyx.spring._21_aop_xml" />
+
+    <bean id="employeeService" class="com.cyx.spring._21_aop_xml.service.impl.EmployeeServiceImpl" />
+
+    <!-- 事务管理器 -->
+    <bean id="transactionManager" class="com.cyx.spring._21_aop_xml.tx.TransactionManager" />
+
+
+    <!-- AOP 配置：在什么地方（where） + 什么时候（when） + 做什么（what） -->
+    <!-- proxy-target-class 属性：是否代理真实类型：false：使用 JDK 动态代理；true：使用 cglib 动态代理 -->
+    <aop:config>
+        <!-- 配置 AOP 切面 -->
+        <!-- ref：引用哪个对象做增强操作 -->
+        <aop:aspect ref="transactionManager">       <!-- 1、what：做什么增强操作 -->
+            <!-- 2、where：对哪些包中的哪些类中的哪些方法做增强 -->
+            <aop:pointcut id="txManagerPoint" expression="execution(* com.cyx.spring._21_aop_xml.service.*Service.*(..))" />
+
+            <!-- 3、when：在方法执行的什么时机做增强 -->
+            <aop:before method="begin" pointcut-ref="txManagerPoint" />                                 <!-- 前置增强 -->
+            <aop:after-returning method="commit" pointcut-ref="txManagerPoint" />                       <!-- 后置增强 -->
+            <!--
+                throwing 属性：
+                    在增强方法中捕获异常信息，注意增强方法中必须要有一个 java.lang.Throwable 类型的参数，
+                且属性名和参数名要一致
+            -->
+            <aop:after-throwing method="rollback" pointcut-ref="txManagerPoint" throwing="exception" /> <!-- 异常增强 -->
+            <aop:after method="close" pointcut-ref="txManagerPoint" />                                  <!-- 最终增强 -->
+            <!--
+                注意：
+                    aop:after-returning：方法正常执行完成后；
+                    aop:after-throwing：方法执行出现异常时；
+                    aop:after：最终增强。
+            -->
+            <aop:around method="aroundMethod" pointcut-ref="txManagerPoint" />                          <!-- 环绕增强 -->
+        </aop:aspect>
+    </aop:config>
+
+</beans>

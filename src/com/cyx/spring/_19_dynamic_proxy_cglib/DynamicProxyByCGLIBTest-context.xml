@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation=
+               "http://www.springframework.org/schema/beans
+                https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employeeDAO" class="com.cyx.spring._19_dynamic_proxy_cglib.dao.impl.EmployeeDAOImpl" />
+
+    <!-- 事务管理器 -->
+    <bean id="transactionManager" class="com.cyx.spring._19_dynamic_proxy_cglib.tx.TransactionManager" />
+
+    <!-- 事务增强类 -->
+    <bean id="transactionManagerAdvice" class="com.cyx.spring._19_dynamic_proxy_cglib.tx.TransactionManagerAdvice">
+        <property name="target">
+            <bean class="com.cyx.spring._19_dynamic_proxy_cglib.service.EmployeeService">
+                <property name="employeeDAO" ref="employeeDAO" />
+            </bean>
+        </property>
+        <property name="transactionManager" ref="transactionManager" />
+    </bean>
+
+</beans>

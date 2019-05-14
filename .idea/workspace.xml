@@ -1,7 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5ae0226-9dac-4350-97a9-8362aebce650" name="Default Changelist" comment="" />
+    <list default="true" id="d5ae0226-9dac-4350-97a9-8362aebce650" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/DynamicProxyByJDKTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/DynamicProxyByJDKTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/tx/TransactionManagerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/DynamicProxyByCGLIBTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/DynamicProxyByCGLIBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/tx/TransactionManagerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/InterceptorTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/InterceptorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/dao/impl/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/log/LogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/log/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPByXMLTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPByXMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/AOPByAnnotationTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/AOPByAnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/tx/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/SpringJDBCTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/SpringJDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/TransferTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/TransferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/dao/TransferDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/dao/impl/TransferDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/service/TransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/service/impl/TransferServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/TransferTest-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/TransferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/dao/TransferDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/dao/impl/TransferDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/service/TransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/service/impl/TransferServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/JavaConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/dao/TransferDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/dao/impl/TransferDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/service/TransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/service/impl/TransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cf3f39cb-2d5b-40b6-b692-fc10a78be1f0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cf3f39cb-2d5b-40b6-b692-fc10a78be1f0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring_study/com/cyx/spring/_14_value_annotation/PropertiesBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_study/com/cyx/spring/_14_value_annotation/PropertiesBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring_study/com/cyx/spring/_17_static_proxy/StaticProxyTest-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_study/com/cyx/spring/_17_static_proxy/StaticProxyTest-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring_study/com/cyx/spring/_17_static_proxy/proxy/EmployeeServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/spring_study/com/cyx/spring/_17_static_proxy/proxy/EmployeeServiceProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyx/spring/_11_dbcp_property_placeholder/DataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyx/spring/_11_dbcp_property_placeholder/DataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/PropertiesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/PropertiesBean.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +114,7 @@
         <item name="demo@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="demo: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="member: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -50,7 +123,22 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/JavaConfigTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,69 +156,76 @@
       <find>path</find>
       <find>close</find>
       <find>entry</find>
+      <find>assertthrows</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring_study" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_08_di_setter/DIBySetterTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_08_di_setter/GBeanCollection.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_08_di_setter/DIBySetterTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_09_di_constructor/HBeanDependency.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_09_di_constructor/HBeanRef.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_09_di_constructor/HBeanCollection.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_09_di_constructor/DIByConstructorTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_09_di_constructor/DIByConstructorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_09_di_constructor/HBeanValue.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_10_bean_inheritance/BeanInheritance.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_10_bean_inheritance/IBean_1.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_10_bean_inheritance/IBean_2.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_10_bean_inheritance/BeanInheritanceTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_10_bean_inheritance/BeanInheritanceTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_11_dbcp_property_placeholder/DataSourceTest.java" />
-        <option value="$PROJECT_DIR$/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_11_dbcp_property_placeholder/DataSourceTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/dao/User.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/domain/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/ImitateRegisterTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/JBeanDependency.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/AutowiredQualifierTest-context.xml" />
-        <option value="$PROJECT_DIR$/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/AutowiredQualifierTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/JBean.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/ValueAnnotationTest.java" />
-        <option value="$PROJECT_DIR$/resources/test.properties" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/PropertiesBean.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_15_stereotype_annotation/StereotypeAnnotationTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_15_stereotype_annotation/StereotypeAnnotationTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_15_stereotype_annotation/KBean.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/ValueAnnotationTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_16_lifecycle_annotation/LifecycleAnnotationTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_16_lifecycle_annotation/LBean.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_16_lifecycle_annotation/LifecycleAnnotationTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/dao/impl/UserDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/Controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/ImitateRegisterTest-context.xml" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/domain/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/dao/EmployeeDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/dao/impl/EmployeeDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/tx/TransactionManager.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/service/impl/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/proxy/EmployeeServiceProxy.java" />
-        <option value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/StaticProxyTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/DynamicProxyByJDKTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_18_dynamic_proxy_jdk/DynamicProxyByJDKTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/DynamicProxyByJDKTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/service/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/DynamicProxyByCGLIBTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/log/LogAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/tx/TransactionManagerAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/InterceptorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_19_dynamic_proxy_cglib/DynamicProxyByCGLIBTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/InterceptorTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_20_interceptor/log/LogUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/DynamicProxyByJDKTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPXmlTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPXmlTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/tx/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPByXMLTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPByXMLTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/AOPByXMLTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/AOPByAnnotationTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/tx/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/AOPByAnnotationTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/SpringJDBCTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/SpringJDBCTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_transfer_demo/TransferAccountsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_transfer_demo/dao/TransferDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_transfer_demo/dao/impl/TransferDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_transfer_demo/service/TransferService.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_transfer_demo/TransferTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_transfer_demo/TransferTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_transfer_demo/service/impl/TransferServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/service/impl/TransferServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/TransferTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/TransferTest-context.xml" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/service/TransferService.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/dao/TransferDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/JavaConfigTest.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/service/impl/TransferServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/service/impl/TransferServiceImpl.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
     <option name="y" value="256" />
     <option name="width" value="1936" />
@@ -143,8 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,12 +263,21 @@
             </path>
             <path>
               <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="_26_spring_java_config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,20 +286,21 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -210,24 +313,25 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_17_static_proxy" />
-      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_16_lifecycle_annotation" />
-      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_15_stereotype_annotation" />
-      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_14_value_annotation" />
-      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_13_autowired_qualifier_annotation" />
+      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_26_spring_java_config" />
+      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_25_spring_transaction_annotation" />
+      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_24_transfer_demo" />
+      <recent name="D:\Work\Practice\spring_study\lib" />
+      <recent name="D:\Work\Practice\spring_study\src\com\cyx\spring\_23_spring_jdbc_crud" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cyx.spring._21_aop_xml.domain" />
+      <recent name="com.cyx.spring._19_dynamic_proxy_cglib.service" />
       <recent name="com.cyx.spring._13_autowired_qualifier_annotation" />
       <recent name="com.cyx.spring._12_imitate_register.dao" />
       <recent name="com.cyx.spring._12_imitate_register.domain" />
-      <recent name="com.cyx.spring._10_bean_inheritance" />
-      <recent name="com.cyx.spring._09_di_constructor" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cyx.spring._24_transfer_demo.service.impl" />
+      <recent name="com.cyx.spring._24_transfer_demo.dao.impl" />
+      <recent name="com.cyx.spring._23_spring_jdbc_crud.service.impl" />
       <recent name="com.cyx.spring._17_static_proxy.service.impl" />
       <recent name="com.cyx.spring._17_static_proxy.dao.impl" />
-      <recent name="com.cyx.spring._12_imitate_register.service.impl" />
-      <recent name="com.cyx.spring._12_imitate_register.dao.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StaticProxyTest.testSaveEmployee">
+  <component name="RunManager" selected="JUnit.TransferTest.testTransfer (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -255,85 +359,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImitateRegisterTest.testImitateRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaConfigTest.testJavaConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cyx.spring._12_imitate_register.*" />
+          <option name="PATTERN" value="com.cyx.spring._26_spring_java_config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cyx.spring._12_imitate_register" />
-      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._12_imitate_register.ImitateRegisterTest" />
-      <option name="METHOD_NAME" value="testImitateRegister" />
+      <option name="PACKAGE_NAME" value="com.cyx.spring._26_spring_java_config" />
+      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._26_spring_java_config.JavaConfigTest" />
+      <option name="METHOD_NAME" value="testJavaConfig" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LifecycleAnnotationTest.testLifecycleAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringJDBCTest.testGetUserList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cyx.spring._16_lifecycle_annotation.*" />
+          <option name="PATTERN" value="com.cyx.spring._23_spring_jdbc_crud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cyx.spring._16_lifecycle_annotation" />
-      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._16_lifecycle_annotation.LifecycleAnnotationTest" />
-      <option name="METHOD_NAME" value="testLifecycleAnnotation" />
+      <option name="PACKAGE_NAME" value="com.cyx.spring._23_spring_jdbc_crud" />
+      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._23_spring_jdbc_crud.SpringJDBCTest" />
+      <option name="METHOD_NAME" value="testGetUserList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyTest.testSaveEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringJDBCTest.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cyx.spring._17_static_proxy.*" />
+          <option name="PATTERN" value="com.cyx.spring._23_spring_jdbc_crud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cyx.spring._17_static_proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._17_static_proxy.StaticProxyTest" />
-      <option name="METHOD_NAME" value="testSaveEmployee" />
+      <option name="PACKAGE_NAME" value="com.cyx.spring._23_spring_jdbc_crud" />
+      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._23_spring_jdbc_crud.SpringJDBCTest" />
+      <option name="METHOD_NAME" value="testUpdateUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyTest.testUpdateEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransferTest.testTransfer (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cyx.spring._17_static_proxy.*" />
+          <option name="PATTERN" value="com.cyx.spring._25_spring_transaction_annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cyx.spring._17_static_proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._17_static_proxy.StaticProxyTest" />
-      <option name="METHOD_NAME" value="testUpdateEmployee" />
+      <option name="PACKAGE_NAME" value="com.cyx.spring._25_spring_transaction_annotation" />
+      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._25_spring_transaction_annotation.TransferTest" />
+      <option name="METHOD_NAME" value="testTransfer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StereotypeAnnotationTest.testStereotypeAnnotation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransferTest.testTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cyx.spring._15_stereotype_annotation.*" />
+          <option name="PATTERN" value="com.cyx.spring._24_spring_transaction_xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cyx.spring._15_stereotype_annotation" />
-      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._15_stereotype_annotation.StereotypeAnnotationTest" />
-      <option name="METHOD_NAME" value="testStereotypeAnnotation" />
+      <option name="PACKAGE_NAME" value="com.cyx.spring._24_spring_transaction_xml" />
+      <option name="MAIN_CLASS_NAME" value="com.cyx.spring._24_spring_transaction_xml.TransferTest" />
+      <option name="METHOD_NAME" value="testTransfer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -367,11 +471,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StaticProxyTest.testSaveEmployee" />
-        <item itemvalue="JUnit.StaticProxyTest.testUpdateEmployee" />
-        <item itemvalue="JUnit.ImitateRegisterTest.testImitateRegister" />
-        <item itemvalue="JUnit.LifecycleAnnotationTest.testLifecycleAnnotation" />
-        <item itemvalue="JUnit.StereotypeAnnotationTest.testStereotypeAnnotation" />
+        <item itemvalue="JUnit.TransferTest.testTransfer (1)" />
+        <item itemvalue="JUnit.JavaConfigTest.testJavaConfig" />
+        <item itemvalue="JUnit.TransferTest.testTransfer" />
+        <item itemvalue="JUnit.SpringJDBCTest.testUpdateUser" />
+        <item itemvalue="JUnit.SpringJDBCTest.testGetUserList" />
       </list>
     </recent_temporary>
   </component>
@@ -401,44 +505,54 @@
       <workItem from="1557211604175" duration="3084000" />
       <workItem from="1557216015552" duration="5692000" />
       <workItem from="1557241960838" duration="2219000" />
-      <workItem from="1557245715464" duration="3308000" />
+      <workItem from="1557245715464" duration="3564000" />
+      <workItem from="1557251069195" duration="43000" />
+      <workItem from="1557299013821" duration="11883000" />
+      <workItem from="1557400021412" duration="45000" />
+      <workItem from="1557400165932" duration="43000" />
+      <workItem from="1557400227882" duration="1932000" />
+      <workItem from="1557413567467" duration="5301000" />
+      <workItem from="1557470521562" duration="11093000" />
+      <workItem from="1557573788891" duration="1138000" />
+      <workItem from="1557728334773" duration="9338000" />
+      <workItem from="1557815642352" duration="9186000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LifecycleAnnotationTest_testLifecycleAnnotation - 2019.05.07 at 17h 13m 50s.xml">
-      <configuration name="LifecycleAnnotationTest.testLifecycleAnnotation" configurationId="JUnit" />
+    <history-entry file="SpringJDBCTest_testUpdateUser - 2019.05.11 at 19h 33m 04s.xml">
+      <configuration name="SpringJDBCTest.testUpdateUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LifecycleAnnotationTest_testLifecycleAnnotation - 2019.05.07 at 17h 14m 18s.xml">
-      <configuration name="LifecycleAnnotationTest.testLifecycleAnnotation" configurationId="JUnit" />
+    <history-entry file="TransferTest_testTransfer - 2019.05.13 at 15h 58m 30s.xml">
+      <configuration name="TransferTest.testTransfer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LifecycleAnnotationTest_testLifecycleAnnotation - 2019.05.07 at 17h 14m 53s.xml">
-      <configuration name="LifecycleAnnotationTest.testLifecycleAnnotation" configurationId="JUnit" />
+    <history-entry file="TransferTest_testTransfer - 2019.05.13 at 16h 01m 03s.xml">
+      <configuration name="TransferTest.testTransfer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LifecycleAnnotationTest_testLifecycleAnnotation - 2019.05.07 at 17h 18m 13s.xml">
-      <configuration name="LifecycleAnnotationTest.testLifecycleAnnotation" configurationId="JUnit" />
+    <history-entry file="TransferTest_testTransfer - 2019.05.13 at 16h 03m 02s.xml">
+      <configuration name="TransferTest.testTransfer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LifecycleAnnotationTest_testLifecycleAnnotation - 2019.05.07 at 17h 18m 36s.xml">
-      <configuration name="LifecycleAnnotationTest.testLifecycleAnnotation" configurationId="JUnit" />
+    <history-entry file="TransferTest_testTransfer - 2019.05.14 at 15h 00m 44s.xml">
+      <configuration name="TransferTest.testTransfer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImitateRegisterTest_testImitateRegister - 2019.05.07 at 17h 50m 11s.xml">
-      <configuration name="ImitateRegisterTest.testImitateRegister" configurationId="JUnit" />
+    <history-entry file="TransferTest_testTransfer - 2019.05.14 at 15h 01m 09s.xml">
+      <configuration name="TransferTest.testTransfer" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticProxyTest_testSaveEmployee - 2019.05.08 at 00h 18m 24s.xml">
-      <configuration name="StaticProxyTest.testSaveEmployee" configurationId="JUnit" />
+    <history-entry file="TransferTest_testTransfer_(1) - 2019.05.14 at 17h 03m 54s.xml">
+      <configuration name="TransferTest.testTransfer (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticProxyTest_testSaveEmployee - 2019.05.08 at 00h 31m 21s.xml">
-      <configuration name="StaticProxyTest.testSaveEmployee" configurationId="JUnit" />
+    <history-entry file="JavaConfigTest_testJavaConfig - 2019.05.14 at 18h 23m 46s.xml">
+      <configuration name="JavaConfigTest.testJavaConfig" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticProxyTest_testUpdateEmployee - 2019.05.08 at 00h 31m 30s.xml">
-      <configuration name="StaticProxyTest.testUpdateEmployee" configurationId="JUnit" />
+    <history-entry file="JavaConfigTest_testJavaConfig - 2019.05.14 at 18h 24m 29s.xml">
+      <configuration name="JavaConfigTest.testJavaConfig" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StaticProxyTest_testSaveEmployee - 2019.05.08 at 00h 31m 43s.xml">
-      <configuration name="StaticProxyTest.testSaveEmployee" configurationId="JUnit" />
+    <history-entry file="TransferTest_testTransfer_(1) - 2019.05.14 at 18h 26m 13s.xml">
+      <configuration name="TransferTest.testTransfer (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79474000" />
+    <option name="totallyTimeSpent" value="129732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,283 +564,279 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19349681" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32936078" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.3167028" visible="true" weight="0.18230277" />
+      <window_info id="Structure" order="6" sideWeight="0.68329716" side_tool="true" weight="0.18390192" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5010661" side_tool="true" weight="0.283857" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5010661" side_tool="true" weight="0.28308025" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.4989339" weight="0.3286334" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="10" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4989339" weight="0.38894907" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4989339" weight="0.38828632" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32936078" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" weight="0.15884861" />
+      <window_info anchor="right" id="Database" order="2" sideWeight="0.4989154" weight="0.15884861" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5010846" side_tool="true" weight="0.15884861" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/spring_study" />
+    </ignored-roots>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_study$SpringJDBCTest_testSaveUser.ic" NAME="SpringJDBCTest.testSaveUser Coverage Results" MODIFIED="1557495496819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cyx.spring._23_spring_jdbc_crud.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_10_bean_inheritance/BeanInheritanceTest-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/service/impl/EmployeeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="60" lean-forward="true" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="1512" column="54" selection-start-line="1512" selection-start-column="42" selection-end-line="1512" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.jar!/org/junit/jupiter/api/function/Executable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/aspectjweaver-1.9.3.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/tx/TransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPByXMLTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_21_aop_xml/AOPByXMLTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/tx/TransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cf3f39cb-2d5b-40b6-b692-fc10a78be1f0/schema/demo/table/employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="dc548e40-91ad-4518-92c4-5baf32620916">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/AOPByAnnotationTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_22_aop_annotation/AOPByAnnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_09_di_constructor/DIByConstructorTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar!/META-INF/INDEX.LIST">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cf3f39cb-2d5b-40b6-b692-fc10a78be1f0/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.16.jar!/META-INF/services/java.sql.Driver">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-jdbc-5.1.6.RELEASE.jar!/org/springframework/jdbc/core/JdbcOperations.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="24" />
+        <state relative-caret-position="298">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/druid-1.1.16.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
+    <entry file="jar://D:/Resource/Java_jar/Spring/spring-framework-5.1.6.RELEASE/libs/spring-jdbc-5.1.6.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="487">
+          <caret line="151" column="10" selection-start-line="151" selection-start-column="10" selection-end-line="151" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/druid-1.1.16.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+    <entry file="jar://D:/Resource/Java_jar/Spring/spring-framework-5.1.6.RELEASE/libs/spring-jdbc-5.1.6.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="90" column="48" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_11_dbcp_property_placeholder/DataSourceTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="42" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#927#952#0" expanded="true" />
-            <element signature="e#991#1004#0" expanded="true" />
-            <element signature="e#1048#1066#0" expanded="true" />
-            <element signature="e#1110#1128#0" expanded="true" />
-            <element signature="e#1175#1196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_11_dbcp_property_placeholder/DataSourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="74" lean-forward="true" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        <state relative-caret-position="410">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/dao/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/domain/UserDAO.java" />
-    <entry file="jar://D:/Environment/Java/Java_1.8/JDK/src.zip!/java/sql/PreparedStatement.java">
+    <entry file="jar://D:/Resource/Java_jar/Spring/spring-framework-5.1.6.RELEASE/libs/spring-jdbc-5.1.6.RELEASE-sources.jar!/org/springframework/jdbc/core/BeanPropertyRowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/JBeanDependency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/AutowiredQualifierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="605">
+          <caret line="235" column="5" lean-forward="true" selection-start-line="220" selection-start-column="4" selection-end-line="235" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#4904#4905#0" expanded="true" />
+            <element signature="e#4934#4935#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/JBean.java">
+    <entry file="jar://D:/Resource/Java_jar/Spring/spring-framework-5.1.6.RELEASE/libs/spring-jdbc-5.1.6.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapperResultSetExtractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="410">
+          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#toString#0;class#JBean#0" />
+            <element signature="e#2637#2638#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_13_autowired_qualifier_annotation/AutowiredQualifierTest-context.xml">
+    <entry file="jar://D:/Resource/Java_jar/Spring/spring-framework-5.1.6.RELEASE/libs/spring-jdbc-5.1.6.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="298">
+          <caret line="780" column="17" selection-start-line="780" selection-start-column="17" selection-end-line="780" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_14_vaule_annotation.java" />
-    <entry file="file://$PROJECT_DIR$/resources/applicationContext.xml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="3" lean-forward="true" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/PropertiesBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="method#toString#0;class#PropertiesBean#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/ValueAnnotationTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_15_stereotype_annotation/StereotypeAnnotationTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="86" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_15_stereotype_annotation/StereotypeAnnotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_14_value_annotation/ValueAnnotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_16_lifecycle_annotation/StereotypeAnnotationTest-context.xml" />
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_03_container/BBean.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_06_bean_lifecycle/EBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_15_stereotype_annotation/KBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_16_lifecycle_annotation/LifecycleAnnotationTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_16_lifecycle_annotation/LBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="8" selection-start-line="8" selection-end-line="38" selection-end-column="1" />
+          <caret line="5" selection-start-line="5" selection-end-line="28" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
+            <element signature="method#User#0;class#User#0" />
+            <element signature="method#toString#0;class#User#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_16_lifecycle_annotation/LifecycleAnnotationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="14" selection-start-line="14" selection-end-line="83" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/SpringJDBCTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_23_spring_jdbc_crud/SpringJDBCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" selection-start-line="11" selection-end-line="49" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -735,123 +845,52 @@
     </entry>
     <entry file="das://cf3f39cb-2d5b-40b6-b692-fc10a78be1f0/schema/demo/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
+        <state projectRestartId="410cb8b4-0fa1-4bee-b905-88cb419f0a2f">
+          <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/domain/User.java">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-tx-5.1.6.RELEASE.jar!/org/springframework/transaction/TransactionDefinition.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" selection-start-line="5" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="126">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/dao/UserDAO.java">
+    <entry file="jar://D:/Resource/Java_jar/Spring/spring-framework-5.1.6.RELEASE/libs/spring-tx-5.1.6.RELEASE-sources.jar!/org/springframework/transaction/TransactionDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="88">
+          <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/dao/impl/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/ImitateRegisterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_12_imitate_register/ImitateRegisterTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#918#936#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/tx/TransactionManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/dao/TransferDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
+          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/dao/EmployeeDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/dao/impl/TransferDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/dao/impl/EmployeeDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/domain/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/service/impl/EmployeeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/service/TransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/service/impl/TransferServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="1" />
@@ -861,34 +900,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/proxy/EmployeeServiceProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/TransferTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="7" selection-start-line="7" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_24_spring_transaction_xml/TransferTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/dao/TransferDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/dao/impl/TransferDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" selection-start-line="9" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/service/TransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/TransferTest-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/service/impl/TransferServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cf3f39cb-2d5b-40b6-b692-fc10a78be1f0/schema/demo/table/member">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="8aa740fc-1cf8-4f16-92fc-745d0901dd8e">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_25_spring_transaction_annotation/TransferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/dao/TransferDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/dao/impl/TransferDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" selection-start-line="9" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/service/TransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/service/impl/TransferServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" selection-start-line="8" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#410#1" expanded="true" />
+            <element signature="e#476#489#1" expanded="true" />
+            <element signature="e#526#544#1" expanded="true" />
+            <element signature="e#586#604#1" expanded="true" />
+            <element signature="e#646#667#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/StaticProxyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_26_spring_java_config/JavaConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cyx/spring/_17_static_proxy/StaticProxyTest-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -909,7 +1064,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring (spring_study)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -932,6 +1087,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
